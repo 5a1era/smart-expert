@@ -18,6 +18,12 @@ a {
 ul {
     list-style: none;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
 /* Reset end */
 
 /* Default classes start */
@@ -32,8 +38,29 @@ ul {
 .align-items-center {
     align-items: center;
 }
-/* Default classes end */
+.standart-section {
+    padding: 80px 0;
+}
 
+.text-center {
+    text-align: center;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-right {
+    text-align: right;
+}
+/* Default classes end */
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.section-title {
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
 #header {
     padding: 20px 0;
     border-bottom: 1px solid #ddd;
@@ -48,7 +75,6 @@ ul {
 }
 .logo {
     font:400 30px/1 'Monoton', 'cursive';
-    text-align: center;
 }
 
 .header-nav {
@@ -63,3 +89,22 @@ ul {
 .header-nav a:hover {
     color: #ddd;
 }
+
+.smartphone-item {
+    background-color: #fff;
+    box-shadow: 0 13px 27px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.smartphone-item .smartphone-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.smartphone-item .smartphone-price {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ddd;
+}
+
